@@ -15,7 +15,7 @@
 
 A short empirical and theoretical study of the **Generalized Friendship Paradox** (GFP): on average, your neighbours look more central than you do — in degree, and in five other importance scores.
 
-Developed for the [Mathematical Institute’s Online Research Projects with Africa](https://www.maths.ox.ac.uk) (MIORPA) 2026 programme at the University of Oxford.
+Developed for the [Mathematical Institute’s Online Research Projects with Africa](https://www.maths.ox.ac.uk/outreach/miorpa) (MIORPA) 2026 programme at the University of Oxford.
 
 **Authors.** [Samuel Kangoni Matia](mailto:samuel.matia@unikin.ac.cd) (University of Kinshasa) · [Francesco Hrobat](mailto:francesco.hrobat@maths.ox.ac.uk) (University of Oxford)
 
