@@ -47,7 +47,7 @@ Real networks amplify the effect far more than density-matched **Erdős–Rényi
 
 | Path | Role |
 | --- | --- |
-| [`paper/MIORPA.pdf`](paper/MIORPA.pdf) | Full report |
+| [`report/MIORPA.pdf`](report/MIORPA.pdf) | Full report |
 | [`01_centrality_foundations.ipynb`](01_centrality_foundations.ipynb) | Centralities, notation, and the friendship-paradox setup |
 | [`02_friendship_paradox_real_random_graphs.ipynb`](02_friendship_paradox_real_random_graphs.ipynb) | Experiments on real graphs vs \(G(n,p)\) |
 | [`figs/`](figs) | Density plots and other figures from the paper |
