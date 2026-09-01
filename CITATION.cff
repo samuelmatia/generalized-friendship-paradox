@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+title: "It's not you, it's the math: your friends are (probably) more important than you"
+message: If you use this work, please cite it as below.
+type: article
+authors:
+  - family-names: Matia
+    given-names: Samuel Kangoni
+    affiliation: Department of Computer Engineering, University of Kinshasa
+    email: samuel.matia@unikin.ac.cd
+  - family-names: Hrobat
+    given-names: Francesco
+    affiliation: Mathematical Institute, University of Oxford
+    email: francesco.hrobat@maths.ox.ac.uk
+date-released: "2026-09-01"
+keywords:
+  - Friendship Paradox
+  - Generalized Friendship Paradox
+  - Network Science
+  - Centrality
+  - Random Graphs
+license: MIT
