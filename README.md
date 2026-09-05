@@ -17,7 +17,7 @@ A short empirical and theoretical study of the **Generalized Friendship Paradox*
 
 Developed for the [Mathematical Institute’s Online Research Projects with Africa](https://www.maths.ox.ac.uk/outreach/miorpa) (MIORPA) 2026 programme at the University of Oxford.
 
-**Authors.** [Samuel Kangoni Matia](mailto:samuel.matia@unikin.ac.cd) (University of Kinshasa) · [Francesco Hrobat](mailto:francesco.hrobat@maths.ox.ac.uk) (University of Oxford)
+**Authors.** [Samuel Kangoni Matia](https://scholar.google.com/citations?user=55P3_qMAAAAJ&hl=en&oi=ao) (University of Kinshasa) · [Francesco Hrobat](https://fhrobat.github.io/) (University of Oxford)
 
 ---
 
@@ -35,7 +35,7 @@ $$
 \Delta_i = (D^{-1} A x)_i - x_i
 $$
 
-We also propose a simple **local standing** score, $\exp(-\Delta_i)$: hubs that outrank their neighbours score above 1; nodes that sit below their friends score in $(0,1)$.
+We also propose a new centrality, **local standing** score, $\exp(-\Delta_i)$: hubs that outrank their neighbours score above 1; nodes that sit below their friends score in $(0,1)$.
 
 Real networks amplify the effect far more than density-matched **Erdős–Rényi** graphs. Inequality, not chance, is doing most of the work.
 
