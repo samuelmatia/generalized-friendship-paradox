@@ -81,4 +81,4 @@ Then open the notebooks in order. The small NetworkX graphs run without extra do
 }
 ```
 
-Code is released under the [MIT License](LICENSE). The report in `paper/` remains copyright of the authors.
+Code is released under the [MIT License](LICENSE). The report in `report/` remains copyright of the authors.
