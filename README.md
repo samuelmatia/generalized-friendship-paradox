@@ -26,18 +26,16 @@ Developed for the [Mathematical Institute’s Online Research Projects with Afri
 Pick a person at random. Then pick one of their friends. That friend is typically *more connected* than the person you started with. The same bias appears for eigenvector, walk, Katz, exponential, and non-backtracking centrality.
 
 $$
-\Delta_{\mathrm{GFP}} = \mathbb{E}[x_{\mathrm{neigh}}] - \mathbb{E}[x] \ge 0
-\qquad\text{where}\qquad
-\mathbb{E}[x_{\mathrm{neigh}}] = \frac{d^\top x}{\mathbf{1}^\top d}
+\Delta_{\mathrm{GFP}} = \mathbb{E}[x_{\mathrm{neigh}}] - \mathbb{E}[x] \ge 0 \qquad\text{where}\qquad \mathbb{E}[x_{\mathrm{neigh}}] = \frac{d^\top x}{\mathbf{1}^\top d}
 $$
 
-Locally, node \(i\) sees a gap between itself and its immediate neighbourhood:
+Locally, node $i$ sees a gap between itself and its immediate neighbourhood:
 
 $$
 \Delta_i = (D^{-1} A x)_i - x_i
 $$
 
-We also propose a simple **local standing** score, \(\exp(-\Delta_i)\): hubs that outrank their neighbours score above 1; nodes that sit below their friends score in \((0,1)\).
+We also propose a simple **local standing** score, $\exp(-\Delta_i)$: hubs that outrank their neighbours score above 1; nodes that sit below their friends score in $(0,1)$.
 
 Real networks amplify the effect far more than density-matched **Erdős–Rényi** graphs. Inequality, not chance, is doing most of the work.
 
@@ -49,30 +47,13 @@ Real networks amplify the effect far more than density-matched **Erdős–Rényi
 | --- | --- |
 | [`report/MIORPA.pdf`](report/MIORPA.pdf) | Full report |
 | [`01_centrality_foundations.ipynb`](01_centrality_foundations.ipynb) | Centralities, notation, and the friendship-paradox setup |
-| [`02_friendship_paradox_real_random_graphs.ipynb`](02_friendship_paradox_real_random_graphs.ipynb) | Experiments on real graphs vs \(G(n,p)\) |
+| [`02_friendship_paradox_real_random_graphs.ipynb`](02_friendship_paradox_real_random_graphs.ipynb) | Experiments on real graphs vs $G(n,p)$ |
 | [`figs/`](figs) | Density plots and other figures from the paper |
 | [`outputs/`](outputs) | Spreadsheet summaries of global and local gaps |
 
-**Networks.** Karate Club, Florentine families (labelled *Dolphins* in the notebooks), Les Misérables, Cora, CiteSeer.
+**Networks.** Karate Club, Florentine families, Les Misérables, Cora, CiteSeer.
 
 **Centralities.** Degree · Eigenvector · Walk · Katz · Exponential (total subgraph communicability) · Non-backtracking.
-
----
-
-## A glimpse of the results
-
-On the small *Dolphins / Florentine* graph, most nodes sit to the **right** of \(\Delta_i = 0\): their neighbours look more important than they do. The red (real) and blue (ER) densities are close here because the graph is small and relatively homogeneous. On Karate Club, Cora, and CiteSeer the real-graph gap is much larger — see the paper.
-
-<p align="center">
-  <img src="assets/delta-density-dolphins.png" alt="Density of the local gap Δi on the Dolphins network" width="820">
-</p>
-
-| Graph | Centrality | Real \(\%\{\Delta_i \ge 0\}\) | ER \(\%\{\Delta_i \ge 0\}\) |
-| --- | --- | ---: | ---: |
-| Karate Club | Degree | 85.3% | 64.7% |
-| Les Misérables | Degree | 87.0% | 63.6% |
-| Cora | Eigenvector | 96.8% | 80.2% |
-| CiteSeer | Eigenvector | 92.2% | 71.8% |
 
 ---
 
