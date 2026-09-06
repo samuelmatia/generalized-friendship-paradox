@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="paper/MIORPA.pdf"><img src="https://img.shields.io/badge/paper-PDF-002147?style=flat-square" alt="Paper PDF"></a>
+  <a href="report/MIORPA 2026-Generalized Friendship Paradox.pdf"><img src="https://img.shields.io/badge/paper-PDF-002147?style=flat-square" alt="Report PDF"></a>
   <img src="https://img.shields.io/badge/python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/MIORPA-Oxford%202026-C4A35A?style=flat-square" alt="MIORPA Oxford 2026">
   <img src="https://img.shields.io/badge/license-MIT-2ea44f?style=flat-square" alt="MIT License">
@@ -45,7 +45,7 @@ Real networks amplify the effect far more than density-matched **Erdős–Rényi
 
 | Path | Role |
 | --- | --- |
-| [`report/MIORPA.pdf`](report/MIORPA.pdf) | Full report |
+| [`report/MIORPA.pdf`](report/MIORPA 2026-Generalized Friendship Paradox.pdf) | Full report |
 | [`01_centrality_foundations.ipynb`](01_centrality_foundations.ipynb) | Centralities, notation, and the friendship-paradox setup |
 | [`02_friendship_paradox_real_random_graphs.ipynb`](02_friendship_paradox_real_random_graphs.ipynb) | Experiments on real graphs vs $G(n,p)$ |
 | [`figs/`](figs) | Density plots and other figures from the paper |
